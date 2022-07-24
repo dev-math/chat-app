@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 
 const PORT = process.env.PORT;
 const PUBLIC_FOLDER = path.join(__dirname, '../public');
